@@ -1,0 +1,14 @@
+#tickets 
+.header
+{
+    margin-bottom: 20px;
+}
+#goodies
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
+.ticket 
+{
+    margin-bottom: 20px;
+}
