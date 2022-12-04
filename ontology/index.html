@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZYAZABI</title>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+    </head>
+
+    <body>
+        <script>
+        d3.json("mesItems.json",function(data){
+
+        var canvas = d3.select("body")
+
+        canvas.selectAll("p")
+                .data(data)
+                .enter()
+                    .append("p")
+                    .attr("width",50)
+                    .attr("height",50)
+                    .text(function(d,i) { return console.log(d["goc:HasName"]) ;})
+    });
+        </script>
+
+    </body>
+
+</html>

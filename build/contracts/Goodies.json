@@ -28,8 +28,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -42,8 +41,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -56,8 +54,7 @@
       "name": "buyGoodies",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function",
-      "payable": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_index\",\"type\":\"uint256\"}],\"name\":\"buyGoodies\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"goodies\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"buyGoodies(uint256)\":{\"notice\":\"_index [0...10] external -> veux dire que seul les appeles hors du contract peuvent appell\\u00e9 la m\\u00e9thode payable -> veux dire que pour appel\\u00e9 cette m\\u00e9thode il faut payer  \"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Goodies.sol\":\"Goodies\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Goodies.sol\":{\"keccak256\":\"0x98dd484cb891bb949777088c5d3d9584e8d3784379d0f913b3ff32f307f2003e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2b525db90dd57d177f75bbe725ee3fbc187bad9136522c5932a958edb59f56f2\",\"dweb:/ipfs/QmPE5mKY49s3KeFxBaFCYxPkGznHd7tiamWiyeQgkzS1qe\"]}},\"version\":1}",
@@ -1594,7 +1591,7 @@
   "sourceMap": "108:1185:0:-:0;;;157:10;134:33;;;;;;;;;;;;;;;;;;;;362:208;;;;;;;;;;396:9;392:169;101:2;410:1;:15;392:169;;;482:3;455:7;463:1;455:10;;;;;;;:::i;:::-;;;;;:16;;;:31;;;;;;;;;;;;;;;;;;520:4;501:7;509:1;501:10;;;;;;;:::i;:::-;;;;;:16;;:23;;;;426:3;;;;;:::i;:::-;;;;392:169;;;;108:1185;;7:180:2;55:77;52:1;45:88;152:4;149:1;142:15;176:4;173:1;166:15;193:180;241:77;238:1;231:88;338:4;335:1;328:15;362:4;359:1;352:15;379:77;416:7;445:5;434:16;;379:77;;;:::o;462:233::-;501:3;524:24;542:5;524:24;:::i;:::-;515:33;;570:66;563:5;560:77;557:103;;640:18;;:::i;:::-;557:103;687:1;680:5;676:13;669:20;;462:233;;;:::o;108:1185:0:-;;;;;;;",
   "deployedSourceMap": "108:1185:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;291:35;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;134:33;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;783:503;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;291:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;134:33::-;;;;;;;;;;;;:::o;783:503::-;101:2;861:6;:21;:35;;;;;895:1;886:6;:10;;861:35;853:44;;;;;;1013:3;980:37;;:7;988:6;980:15;;;;;;;:::i;:::-;;;;;:21;;;;;;;;;;;;:37;;;972:46;;;;;;1103:7;1111:6;1103:15;;;;;;;:::i;:::-;;;;;:21;;;1090:9;:34;;1082:43;;;;;;1230:10;1206:7;1214:6;1206:15;;;;;;;:::i;:::-;;;;;:21;;;:34;;;;;;;;;;;;;;;;;;783:503;:::o;88:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:126::-;1186:7;1226:42;1219:5;1215:54;1204:65;;1149:126;;;:::o;1281:96::-;1318:7;1347:24;1365:5;1347:24;:::i;:::-;1336:35;;1281:96;;;:::o;1383:118::-;1470:24;1488:5;1470:24;:::i;:::-;1465:3;1458:37;1383:118;;:::o;1507:332::-;1628:4;1666:2;1655:9;1651:18;1643:26;;1679:71;1747:1;1736:9;1732:17;1723:6;1679:71;:::i;:::-;1760:72;1828:2;1817:9;1813:18;1804:6;1760:72;:::i;:::-;1507:332;;;;;:::o;1845:222::-;1938:4;1976:2;1965:9;1961:18;1953:26;;1989:71;2057:1;2046:9;2042:17;2033:6;1989:71;:::i;:::-;1845:222;;;;:::o;2073:180::-;2121:77;2118:1;2111:88;2218:4;2215:1;2208:15;2242:4;2239:1;2232:15",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\nuint256 constant TOTAL_TICKET = 10;\r\n\r\ncontract Goodies \r\n{\r\n    address public owner = msg.sender; //Addresse du compte metamask\r\n\r\n    struct Goodie\r\n    {\r\n        uint256 price; \r\n        address owner; \r\n    }\r\n\r\n    Goodie[TOTAL_TICKET] public goodies; // Tableau de Goodie de 10\r\n\r\n    constructor()\r\n    {\r\n        for(uint256 i = 0;i< TOTAL_TICKET;i++)\r\n        {\r\n            goodies[i].owner = address(0x0);\r\n            goodies[i].price = 1e17; // 0.1 ETH\r\n            \r\n        }\r\n\r\n    }\r\n    /**\r\n    *\r\n    _index [0...10]\r\n    external -> veux dire que seul les appeles hors du contract peuvent appellé la méthode\r\n    payable -> veux dire que pour appelé cette méthode il faut payer  */\r\n    function buyGoodies(uint256 _index) external payable \r\n    {\r\n        require(_index < TOTAL_TICKET && _index >=0); // vérifier que l'index est plus petit que le stock disponible\r\n        require(goodies[_index].owner == address(0x0)); //Vérfier que personne ne possède déja ce goodies\r\n        require(msg.value >= goodies[_index].price); // vérifier que l'utilisateur à vraiment envoyé le montant correct\r\n        goodies[_index].owner = msg.sender; // affilié un goodies à un client\r\n\r\n    }\r\n\r\n\r\n}\r\n",
-  "sourcePath": "C:\\Users\\arezk\\Desktop\\Etude\\M2_Paris_8\\LW\\THYP_22-23_SmartContrat\\contracts\\Goodies.sol",
+  "sourcePath": "c:\\Users\\arezk\\Desktop\\Etude\\M2_Paris_8\\LW\\THYP_22-23_SmartContrat\\contracts\\Goodies.sol",
   "ast": {
     "absolutePath": "project:/contracts/Goodies.sol",
     "exportedSymbols": {
@@ -2915,8 +2912,7 @@
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-11T16:02:02.908Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-11-28T12:42:46.189Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
